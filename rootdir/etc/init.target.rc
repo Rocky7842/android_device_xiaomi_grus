@@ -53,6 +53,10 @@ on boot
     # Create hvdcp_opti directory
     mkdir /mnt/vendor/persist/hvdcp_opti 0770 root system
 
+    # Smart Charging
+    chown system system /sys/class/power_supply/battery/input_suspend
+    chmod 0664 /sys/class/power_supply/battery/input_suspend
+
 service panel-info-sh /vendor/bin/init.panel_info.sh
     class core
     user root
