@@ -22,17 +22,16 @@ Rear Camera  | 48 MP (wide) + 13 MP (ultrawide) + 8 MP (portrait), PDAF, dual-LE
 
 ***
 
-## For building LineageOS 20
+## For building crDroid 9
 Create '.repo/local_manifests/roomservice.xml' with the following content:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <project name="Rocky7842/android_device_xiaomi_grus" path="device/xiaomi/grus" remote="github" revision="crdroid-13.0" />
+  <project name="Rocky7842/android_vendor_xiaomi_grus" path="vendor/xiaomi/grus" remote="github" revision="lineage-20.0" />
+  <project name="Rocky7842/android_kernel_xiaomi_sdm710" path="kernel/xiaomi/sdm710" remote="github" revision="lineage-20.0" />
   <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-20" />
-
-  <project name="kyasu/android_kernel_xiaomi_sdm710" path="kernel/xiaomi/sdm710" remote="github" revision="lineage-20" />
-  <project name="kyasu/android_device_xiaomi_grus" path="device/xiaomi/grus" remote="github" revision="lineage-20" />
-  <project name="kyasu/android_vendor_xiaomi_grus" path="vendor/xiaomi/grus" remote="github" revision="lineage-20" />
 
 </manifest>
 ```
