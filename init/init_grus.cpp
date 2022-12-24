@@ -41,6 +41,4 @@ void vendor_load_properties()
 {
     property_override_multiple("name", "grus");
     property_override_multiple("model", "Mi 9 SE");
-    property_override("ro.build.description",
-        "grus-user 11 RKQ1.200826.002 V12.5.1.0.RFBMIXM release-keys");
 }
