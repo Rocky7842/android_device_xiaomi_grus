@@ -1,0 +1,12 @@
+[
+  {
+    "repository" : "Rocky7842/android_kernel_xiaomi_sdm710",
+    "target_path": "kernel/xiaomi/sdm710",
+    "branch"     : "lineage-20.0"
+  },
+  {
+    "repository" : "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "branch"     : "lineage-20"
+  }
+]
