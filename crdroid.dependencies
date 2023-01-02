@@ -1,7 +1,7 @@
 [
   {
-    "repository" : "Rocky7842/android_kernel_xiaomi_sdm710",
-    "target_path": "kernel/xiaomi/sdm710",
+    "repository" : "Rocky7842/android_kernel_xiaomi_grus",
+    "target_path": "kernel/xiaomi/grus",
     "branch"     : "lineage-20.0"
   },
   {
